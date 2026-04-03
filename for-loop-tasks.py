@@ -32,14 +32,14 @@ for i in range(1,11,1):
     print(i,"x",tbl,"=",i*tbl)
  '''
 #Q5
-#fibonacci
+#fibonacci series
 n=int(input("enther value :"))
 n1=0
 n2=1
 for i in range(n):
-    print(n1, end=" ")
-    c=n1+n2
+    n3=n1+n2#-->0+1=1
+    print(n3)
     n1=n2
-    n2=c
+    n2=n3
 
 
